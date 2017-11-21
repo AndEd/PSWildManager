@@ -1,0 +1,15 @@
+name: "PSWildManager"
+author: "PS88"
+main: pswild/PSWildManager
+version: 1.0.0
+api:
+ - 3.0.0-ALPHA9
+
+commands:
+  야생:
+    description: wildwarp
+    permission: wild
+
+permissions:
+  wild:
+    default: true
